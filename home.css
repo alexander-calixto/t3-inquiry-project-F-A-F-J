@@ -4,5 +4,54 @@ header{
 }
 .intro-text{
     display: flex;
+    justify-content: center;
+    flex: 1;
+
+}
+.intro-img{
+    height: 40vh;
+    width: 20vw;
+
+}
+.intro-style{
+    height: 40vh;
+    width: 100vw;
+    background-color: grey;
+    display: flex;
+}
+.intro-img-styles{
+    display: flex;
     justify-content: space-around;
+}
+.main-imgs{
+    height: 30vh;
+    width: 25vw;
+}
+.main-imgs-styles{
+    display: flex;
+    flex: 1;
+}
+main{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+}
+.main-button-styles{
+    display: flex;
+    justify-content: center;
+}
+.main-heading-styles{
+    display: flex;
+    justify-content: center;
+}
+.footer-header{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: orange;
+}
+header{
+    background-color: gray;
 }
