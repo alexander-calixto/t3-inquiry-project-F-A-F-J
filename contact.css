@@ -9,8 +9,30 @@ body{
     width: 98%;
     background-color: navy;
     color: white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .logo{
-    width: ;
+    width:60px ;
+    height: 60px;
+}
+
+.navbutton{
+    width: 145px;
+    height:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+.Contact-section{
+    width: 98%;
+    height: 505px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
 }
