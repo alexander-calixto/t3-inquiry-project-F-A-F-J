@@ -1,12 +1,18 @@
 header{
     display: flex;
     justify-content: center;
+    width: 100vw;
 }
 .intro-text{
     display: flex;
     justify-content: center;
     flex: 1;
 
+}
+.intro-header{
+    display: flex;
+    justify-content: center;
+    
 }
 .intro-img{
     height: 40vh;
@@ -16,8 +22,8 @@ header{
 .intro-style{
     height: 40vh;
     width: 100vw;
-    background-color: grey;
     display: flex;
+    gap: 20px;
 }
 .intro-img-styles{
     display: flex;
@@ -50,8 +56,25 @@ main{
     justify-content: center;
 }
 footer{
-    background-color: orange;
+    background-color: rgb(77, 198, 160) ;
 }
-header{
-    background-color: gray;
+.navbar{
+    background-color: navy;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.navbar-styles{
+    background-color: rgb(77, 198, 160);
+    border: solid 8px rgb(77, 198, 160);
+    width: 6vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
 }
